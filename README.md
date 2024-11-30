@@ -6,7 +6,7 @@ Checking this repo currently gives the following warning:
 > cargo check
     Checking repro_rust_124535 v0.1.0 (/path/censored)
 warning: cannot find macro `doc_self` in this scope
- --> src/pm/dnf.rs:1:10
+ --> src/dnf.rs:1:10
   |
 1 | #![doc = doc_self!()]
   |          ^^^^^^^^
@@ -17,7 +17,7 @@ warning: cannot find macro `doc_self` in this scope
   = note: `#[warn(out_of_scope_macro_calls)]` on by default
 
 warning: `repro_rust_124535` (lib) generated 1 warning
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.03s
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.06s
 ```
 
 Reproduction environment:
