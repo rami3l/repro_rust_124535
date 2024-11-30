@@ -2,10 +2,10 @@
 
 macro_rules! doc_self {
     () => {
-        "The [Dandified YUM](https://github.com/rpm-software-management/dnf)."
+        "The Dandified YUM."
     };
 }
 use doc_self;
 
 #[doc = doc_self!()]
-pub struct Dnf {}
+pub fn dnf() {}

@@ -2,6 +2,3 @@
 name = "repro_rust_124535"
 version = "0.1.0"
 edition = "2021"
-
-[dependencies]
-paste = "1.0.15"
